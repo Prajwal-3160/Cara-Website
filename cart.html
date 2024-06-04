@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="Img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html">Cart</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </section> 
+    <section id="page-header" class="about-header">      
+        <h2>Cart</h2>       
+        <p>Add your Coupon's for Discount</p>       
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quality</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="Img/Product/f1.jpg" alt=""></td>
+                    <td>Hawaiian Shirt</td>
+                    <td>499/-</td>
+                    <td><input type="number" value="1"></td>
+                    <td>499/-</td>
+                </tr>
+                <tr>
+                    <td><img src="Img/Product/f2.jpg" alt=""></td>
+                    <td>Hawaiian Shirt</td>
+                    <td>499/-</td>
+                    <td><input type="number" value="1"></td>
+                    <td>499/-</td>
+                </tr>
+                <tr>
+                    <td><img src="Img/Product/f3.jpg" alt=""></td>
+                    <td>Hawaiian Shirt</td>
+                    <td>499/-</td>
+                    <td><input type="number" value="1"></td>
+                    <td>499/-</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="cupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button onclick="myFunction()">Apply</button>
+                <script>
+                  function myFunction() {
+                    alert("Please Sign Up");
+                  }
+                  </script>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal
+                        <td>499/-</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>499/-</strong></td>
+                </tr>
+            </table>
+            
+            <button onclick="myFunction()">Proceed Payment</button>
+      <script>
+        function myFunction() {
+          alert("Payment successful");
+        }
+        </script>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="Img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Chikhali, Patil-nagar, Pune-32</p>
+            <p><strong>Phone:</strong>(+91)8551017428/9049756519</p>
+            <p><strong>Hours:</strong>10:00am - 6:00pm, Mon-Sat </p>
+        </div>
+       <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Info</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+       </div>
+       <div class="col">
+        <h4>My Account</h4>
+        <a href="index.html">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My wallet</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help center</a>
+       </div>
+       <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="Img/Pay/app.jpg" alt="">
+            <img src="Img/Pay/play.jpg" alt="">
+        </div>
+        <p>Secured payment gateway</p>
+        <img src="Img/Pay/pay.png" alt="">
+       </div>
+    </footer>
+    <script src="s``cript.js"></script>
+</body>
+</html>
